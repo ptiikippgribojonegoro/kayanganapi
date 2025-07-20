@@ -1,0 +1,1 @@
+import{k as t,x as a,y as o,E as s}from"./index-CdqgzXxa.js";const p={class:"page-wrapper shadow"},l={__name:"About",props:{is_route:{type:Object,default:{}},company:{type:Object,default:{}},is_mobile:{type:Boolean,default:!1}},setup(r){return t(()=>{}),(n,e)=>(s(),a("section",p,e[0]||(e[0]=[o("div",{class:"page-app py-4"},"ok",-1)])))}};export{l as default};
