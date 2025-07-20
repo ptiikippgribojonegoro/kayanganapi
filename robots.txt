@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /pagenotfound
+Disallow: /404
+Allow: /
+
+Sitemap: https://ptiikippgribojonegoro.github.io/kayanganapi/sitemap.xml
