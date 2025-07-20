@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-  RewriteEngine On RewriteBase /kayanganapi RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
+  RewriteEngine On RewriteBase /kayanganapi # Redirect all requests to
+  index.html RewriteRule ^index\.html$ - [L] RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d RewriteRule . /kayanganapi/index.html [L]
 </IfModule>
